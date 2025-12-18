@@ -1,9 +1,25 @@
 :root { color-scheme: dark; }
-body { margin:0; font-family: system-ui, -apple-system, Arial, sans-serif; background:#070b12; color:#e8eef7; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Arial, sans-serif;
+  background: #070b12;
+  color: #e8eef7;
+}
 .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px 60px; }
-.card { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.10); border-radius: 14px; padding: 18px; }
+.card {
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.10);
+  border-radius: 14px;
+  padding: 18px;
+}
 h1,h2,h3 { margin: 10px 0; }
-a { color: #8fd3ff; }
+a { color: #8fd3ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
 small, .muted { color: rgba(232,238,247,.75); }
 hr { border: 0; border-top: 1px solid rgba(255,255,255,.12); margin: 18px 0; }
-kbd { background: rgba(255,255,255,.08); padding: 2px 6px; border-radius: 6px; border: 1px solid rgba(255,255,255,.14); }
+kbd {
+  background: rgba(255,255,255,.08);
+  padding: 2px 6px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,.14);
+}
